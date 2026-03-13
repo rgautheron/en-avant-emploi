@@ -809,4 +809,8 @@ async function loadFromSheet() {
   }
 }
 
-// 
+document.addEventListener("DOMContentLoaded", loadFromSheet);
+document.addEventListener("DOMContentLoaded", () => { document.getElementById("count-annee").textContent = new Date().getFullYear(); });
+</script>
+</body>
+</html>
